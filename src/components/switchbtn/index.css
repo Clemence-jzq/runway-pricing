@@ -1,0 +1,39 @@
+.switch {
+    border-radius: 45px;
+    border: 1px solid black;
+    width: max-content;
+    align-items: center;
+    font-size: 15px;
+    width: 30rem;
+    height: 3rem;
+    position: relative;
+}
+
+.switchbg {
+    border-radius: 45px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    transition: 0.3s ease;
+}
+
+.switch .col {
+    cursor: pointer;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.switch .col.active {
+    color: white;
+}
+
+span{
+    color: #473FF4;
+}
+
+.switch .col.active span{
+    color: #99D217;
+}
